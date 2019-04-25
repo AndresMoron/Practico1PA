@@ -13,3 +13,5 @@ namespace productoBack.Models
         public System.Data.Entity.DbSet<productoBack.Models.Sale> Sales { get; set; }
     }
 }
+
+//DataContext
