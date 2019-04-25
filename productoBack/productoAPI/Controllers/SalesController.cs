@@ -14,7 +14,7 @@ namespace productoAPI.Controllers
 {
     public class SalesController : ApiController
     {
-        private DataContextClient db = new DataContextClient();
+        private DataContextSale db = new DataContextSale();
 
         // GET: api/Sales
         public IQueryable<Sale> GetSales()

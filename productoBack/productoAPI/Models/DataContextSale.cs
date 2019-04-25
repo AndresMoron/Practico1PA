@@ -9,6 +9,7 @@ namespace productoAPI.Models
         {
 
         }
-        
+
+        public System.Data.Entity.DbSet<productoAPI.Models.Sale> Sales { get; set; }
     }
 }

@@ -1,8 +1,7 @@
-﻿using System.Data.Entity;
-
+﻿
 namespace productoAPI.Models
 {
-  
+    using System.Data.Entity;
 
     public class DataContextClient:DbContext
     {
